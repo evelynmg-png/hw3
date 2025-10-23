@@ -67,6 +67,12 @@ void dealloc(Node* head)
 //   function object struct declarations
 // -----------------------------------------------
 
+struct IsEven{
+  bool operator()(int val){
+    return val % 2 == 0;
+  }
+};
+
 
 
 
